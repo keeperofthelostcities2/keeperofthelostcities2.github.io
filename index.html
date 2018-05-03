@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Keeper of the Lost Cities Website</title>
+  <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+  <script   src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top animated zoomInUp">
+      <div class="container">
+        <a href="#kotlc-books"> 
+          <button id="Books" class="tabcontent">
+            <h3>KOTLC Books</h3>
+          </button>
+        </a>
+        <a href="#portfolio-text">
+          <button id="Portfolio" class="tabcontent">
+            <h3>Upcoming Events and News</h3> 
+          </button>
+        </a>
+        <a href="#contact-text"> 
+          <button id="Contact" class="tabcontent">
+            <h3>Contact and Related Books </h3>
+          </button>
+        </a>
+    </div>
+  </nav>
+  
+  <div class="container" id="kotlc-books">   
+    <p>
+      <br><br><br><br><br>
+      <h5>
+        Keeper of the Lost Cities: There are 6 books in the series as of now. They are titled Keeper of the Lost Cities, Exile, Everblaze, Neverseen, Lodestar, and Nightfall.
+      </h5>
+    </p>
+      <p> Here are the summaries for all of them.
+        
+        <img src="https://d359v1tdoi4bad.cloudfront.net/media/catalog/product/cache/1/image/380x/9df78eab33525d08d6e5fb8d27136e95/9/7/9781442445949.jpg"><h2>Keeper of the Lost Cities</h2>
+         <br> <button onclick=viewSummary1()><h3>View Summary</h3></button>
+      </p>
+      <p><img src="https://images.gr-assets.com/books/1365178949l/13260670.jpg"><h2>Exile</h2>
+        <br> <button onclick=viewSummay2()><h3>View Summary</h3></button></p>
+<p><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397660776i/13260668._UY475_SS475_.jpg"><h2>Everblaze</h2>
+  <br><button onclick=viewSummary3()><h3>View Summary</h3></button>
+</p>
+<p><img src="https://images.gr-assets.com/books/1422383369l/22733616.jpg"><h2>Neverseen</h2>
+  <br><button onclick=viewSummary4><h3>View Summary</h3></button>
+</p>
+<p>
+  <img src="http://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781481474962/lodestar-9781481474962_lg.jpg"><h2>Lodestar</h2>
+  <br><button onclick=viewSummary5()><h3>View Summary</h3></button>
+</p>
+<p><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510611628i/36590488._UY595_SS595_.jpg"><h2>Nightfall</h2>
+<br><button onclick=viewSummary6()><h3>View Summary</h3></button>
+</p>
+ </div> 
+<br><br><br><br><br>         
+<form>
+  <h2>Choose your Favorite Books<h2>
+    <div class="radio">
+      <label><input type="radio" name="kotlcradio"><h3>Keeper of the Lost Cities</h3></label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="exileradio"><h3>Exile</h3></label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="everblazeradio"><h3>Everblaze</h3></label>
+    </div><div class="radio">
+      <label><input type="radio" name="neverseenradio"><h3>Neverseen</h3></label>
+      </div>
+    <div class="radio">
+      <label><input type="radio" name="lodestarradio"><h3>Lodestar</h3></label>  
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="nightfallradio"><h3>Nightfall</h3></label>   
+    </div>         
+  </form>
+  <div>
+  <button onclick=viewResults()><h3> Submit</h3></button>
+            <p id="viewResults"></p>
+        <br><br><br><br><br><br>  <img src="https://images.gr-assets.com/books/1520545883l/32762937.jpg">
+          <h2>Flashback releasing November 6</h2>
+          <button  onclick ="viewSummary7()"><h3>View Summary</h3></button>
+       <br><br><br><br>    
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/IvuFCtxs7lE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/97mXS9UFDrw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  
+  
+    
+  <div class="container">
+    <div id="contact-text" class="tabcontent py-5">
+      <p>
+    
+      </p>
+    </div>
+    </div>
+      <br><br><br><br><br>
+
+<div>
+  <h3>Some AMAZING Other Books</h3>
+  <ol>
+    <li>The H.I.V.E. by Mark Walden</li>
+    <li>Harry Potter by J.K. Rowling(if you haven't read it yet I suggest you do)</li>
+    <li>All Fall Down by Ally Carter</li>
+    
+  </ol>
+</div>
+
+
+  </body>
+  
+   
+<script>
+  $(document).ready(function() {
+    $(".tabcontent").css("color", "red");
+  });
+</script>
+
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

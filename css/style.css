@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+@import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
+
+body{
+  background-color:lavender;
+}
+
+div {
+  font-family: 'Chewy';
+  text-align: center;
+  
+}
+
+.tabcontent {
+  font-family: 'Bungee';
+    
+}
+
+.py-5 {
+  padding-top: 3rem !important;;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bungee';
+}
+
+a {
+  font-family : 'Bungee';
+}
+h3 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Bungee';
+}
+
+
+
